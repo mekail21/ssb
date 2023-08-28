@@ -60,12 +60,12 @@ filter = []
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A;FBAV/374.0.0.20.109;FBBV/381462200;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBRV/382083935;FBCR/1010;FBMF/Green;FBBD/Green;FBPN/com.facebook.katana;FBDV/GREEN 2020;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]'
+    END = '[FBAN/FB4A;FBAV/110.0.0.6.11;FBBV/462536162;FBDM/{density=2.5,width=1920,height=1920};FBLC/de_DE;FBRV/899744738;FBCR/Grameenphone;FBMF/Techno;FBBD/techno;FBPN/com.facebook.katana;FBDV/KD7h;FBSV/15;FBOP/6;FBCA/x86_64:;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
 def randBuildvsskj():
-    END = '[FBAN/EMA;FBBV/352223683;FBAV/291.0.0.12.110;FBDV/SM-G935FD;FBLC/en_GB;FBNG/WIFI;FBMNT/NOT_METERED;FBDM/{density=1.0125}]'
+    END = '[FBAN/FB4A;FBAV/110.0.0.6.11;FBBV/462536162;FBDM/{density=2.5,width=1920,height=1920};FBLC/de_DE;FBRV/899744738;FBCR/Grameenphone;FBMF/Techno;FBBD/techno;FBPN/com.facebook.katana;FBDV/KD7h;FBSV/15;FBOP/6;FBCA/x86_64:;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
